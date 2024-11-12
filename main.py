@@ -23,6 +23,7 @@ async def get_groups(specialty: str, course: str):
 async def get_schedule(date: str, faculty: str, specialty: str, course: str, group: str):
     if date == '12.11.2024':
         is_online = False
+        is_numerator = True
         lessons = [
             {
                 'number': 1,
@@ -75,6 +76,7 @@ async def get_schedule(date: str, faculty: str, specialty: str, course: str, gro
         ]
     else:
         is_online = True
+        is_numerator = False
         lessons = [{
                 'number': 2,
                 'time': '10:35 - 12:10',
@@ -90,6 +92,7 @@ async def get_schedule(date: str, faculty: str, specialty: str, course: str, gro
         'course': course,
         'group': group,
         'is_online': is_online,
+        'is_numerator': is_numerator,
         'lessons': lessons
     }
 
