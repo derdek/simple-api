@@ -23,14 +23,72 @@ async def get_groups(specialty: str, course: str):
 async def get_schedule(date: str, faculty: str, specialty: str, course: str, group: str):
     if date == '12.11.2024':
         is_online = False
-        lessons = [{
+        lessons = [
+            {
                 'number': 1,
                 'time': '8:40 - 10:15',
                 'name': 'Вступ до університетських студій',
                 'teachers': ['доц. Пупків І.І.', 'проф. Іванов І.І.'],
                 'link': None,
                 'cabinet': '42'
-            }]
+            },
+            {
+                'number': 2,
+                'time': '8:40 - 10:15',
+                'name': 'Вступ до університетських студій',
+                'teachers': ['доц. Пупків І.І.', 'проф. Іванов І.І.'],
+                'link': None,
+                'cabinet': '43'
+            },
+            {
+                'number': 3,
+                'time': '8:40 - 10:15',
+                'name': 'Вступ до університетських студій',
+                'teachers': ['доц. Пупків І.І.', 'проф. Іванов І.І.'],
+                'link': None,
+                'cabinet': '44'
+            },
+            {
+                'number': 4,
+                'time': '8:40 - 10:15',
+                'name': 'Вступ до університетських студій',
+                'teachers': ['доц. Пупків І.І.', 'проф. Іванов І.І.'],
+                'link': None,
+                'cabinet': '45'
+            },
+            {
+                'number': 5,
+                'time': '8:40 - 10:15',
+                'name': 'Вступ до університетських студій',
+                'teachers': ['доц. Пупків І.І.', 'проф. Іванов І.І.'],
+                'link': None,
+                'cabinet': '46'
+            },
+            {
+                'number': 6,
+                'time': '8:40 - 10:15',
+                'name': 'Вступ до університетських студій',
+                'teachers': ['доц. Пупків І.І.', 'проф. Іванов І.І.'],
+                'link': None,
+                'cabinet': '47'
+            },
+            {
+                'number': 7,
+                'time': '8:40 - 10:15',
+                'name': 'Вступ до університетських студій',
+                'teachers': ['доц. Пупків І.І.', 'проф. Іванов І.І.'],
+                'link': None,
+                'cabinet': '48'
+            },
+            {
+                'number': 8,
+                'time': '8:40 - 10:15',
+                'name': 'Вступ до університетських студій',
+                'teachers': ['доц. Пупків І.І.', 'проф. Іванов І.І.'],
+                'link': None,
+                'cabinet': '49'
+            },
+        ]
     else:
         is_online = True
         lessons = [{
