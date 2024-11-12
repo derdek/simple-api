@@ -16,7 +16,7 @@ async def get_courses():
     return ['1 бакалавр', '2 бакалавр', '3 бакалавр', '4 бакалавр', '1 магістр', '2 магістр']
 
 @app.get("/groups")
-async def get_groups(specialty: str, course: int):
+async def get_groups(specialty: str, course: str):
     return ['птфе', 'нфне']
 
 @app.get("/schedule")
