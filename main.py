@@ -34,7 +34,7 @@ async def get_schedule(date: str, faculty: str, specialty: str, course: str, gro
             },
             {
                 'number': 2,
-                'time': '8:40 - 10:15',
+                'time': '10:35 - 12:10',
                 'name': 'Вступ до університетських студій',
                 'teachers': ['доц. Пупків І.І.', 'проф. Іванов І.І.'],
                 'link': None,
@@ -42,7 +42,7 @@ async def get_schedule(date: str, faculty: str, specialty: str, course: str, gro
             },
             {
                 'number': 3,
-                'time': '8:40 - 10:15',
+                'time': '12:20 - 13:55',
                 'name': 'Вступ до університетських студій',
                 'teachers': ['доц. Пупків І.І.', 'проф. Іванов І.І.'],
                 'link': None,
@@ -50,7 +50,7 @@ async def get_schedule(date: str, faculty: str, specialty: str, course: str, gro
             },
             {
                 'number': 4,
-                'time': '8:40 - 10:15',
+                'time': '14:05 - 15:40',
                 'name': 'Вступ до університетських студій',
                 'teachers': ['доц. Пупків І.І.', 'проф. Іванов І.І.'],
                 'link': None,
@@ -58,7 +58,7 @@ async def get_schedule(date: str, faculty: str, specialty: str, course: str, gro
             },
             {
                 'number': 5,
-                'time': '8:40 - 10:15',
+                'time': '15:50 - 17:25',
                 'name': 'Вступ до університетських студій',
                 'teachers': ['доц. Пупків І.І.', 'проф. Іванов І.І.'],
                 'link': None,
@@ -66,28 +66,12 @@ async def get_schedule(date: str, faculty: str, specialty: str, course: str, gro
             },
             {
                 'number': 6,
-                'time': '8:40 - 10:15',
+                'time': '17:35 - 20:10',
                 'name': 'Вступ до університетських студій',
                 'teachers': ['доц. Пупків І.І.', 'проф. Іванов І.І.'],
                 'link': None,
                 'cabinet': '47'
-            },
-            {
-                'number': 7,
-                'time': '8:40 - 10:15',
-                'name': 'Вступ до університетських студій',
-                'teachers': ['доц. Пупків І.І.', 'проф. Іванов І.І.'],
-                'link': None,
-                'cabinet': '48'
-            },
-            {
-                'number': 8,
-                'time': '8:40 - 10:15',
-                'name': 'Вступ до університетських студій',
-                'teachers': ['доц. Пупків І.І.', 'проф. Іванов І.І.'],
-                'link': None,
-                'cabinet': '49'
-            },
+            }
         ]
     else:
         is_online = True
