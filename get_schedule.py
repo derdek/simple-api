@@ -12,4 +12,4 @@ def get_schedule_from_json(identifier: str, date: str) -> Optional[dict]:
         schedule = json.load(file)
     date_obj = datetime.strptime(date, "%d.%m.%Y")
     day_of_week = date_obj.strftime("%A").lower()
-    return schedule[day_of_week]
+    return schedule.get(day_of_week)
