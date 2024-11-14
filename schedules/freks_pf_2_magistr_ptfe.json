@@ -1,0 +1,156 @@
+{
+  "monday": {
+    "is_online": true,
+    "lessons": [
+      {
+        "number": 1,
+        "time": "8:40 - 10:15",
+        "name": "Дослідницька практика",
+        "teachers": [],
+        "link": null,
+        "cabinet": null
+      },
+      {
+        "number": 2,
+        "time": "10:35 - 12:10",
+        "name": "Дослідницька практика",
+        "teachers": [],
+        "link": null,
+        "cabinet": null
+      },
+      {
+        "number": 3,
+        "time": "12:20 - 13:55",
+        "name": "Дослідницька практика",
+        "teachers": [],
+        "link": null,
+        "cabinet": null
+      }
+    ]
+  },
+  "tuesday": {
+    "is_online": true,
+    "lessons": [
+      {
+        "number": 1,
+        "time": "8:40 - 10:15",
+        "name": "Дослідницька практика",
+        "teachers": [],
+        "link": null,
+        "cabinet": null
+      },
+      {
+        "number": 2,
+        "time": "10:35 - 12:10",
+        "name": "Дослідницька практика",
+        "teachers": [],
+        "link": null,
+        "cabinet": null
+      },
+      {
+        "number": 3,
+        "time": "12:20 - 13:55",
+        "name": "Дослідницька практика",
+        "teachers": [],
+        "link": null,
+        "cabinet": null
+      }
+    ]
+  },
+  "wednesday": {
+    "is_online": true,
+    "lessons": [
+      {
+        "number": 1,
+        "time": "8:40 - 10:15",
+        "name": "Синергетика",
+        "teachers": [
+          "Анісімов И.О."
+        ],
+        "link": "https://join.skype.com/NhxguQzSWk6m",
+        "cabinet": null
+      },
+      {
+        "number": 2,
+        "time": "10:35 - 12:10",
+        "name": "Фізичні процеси на поверхні твердих тіл",
+        "teachers": [
+          "Стріха М.В."
+        ],
+        "link": "https://join.skype.com/MgFlgxOvyeFd",
+        "cabinet": null
+      },
+      {
+        "number": 3,
+        "time": "12:20 - 13:55",
+        "name": "Семінар з фізики поверхні та фізики плазми",
+        "teachers": [
+          "Черняк В.Я."
+        ],
+        "link": "https://us05web.zoom.us/j/88017179794?pwd=bngvU2xxbDNCVHVqbU0rSFJ2YTJtdz09",
+        "cabinet": null
+      }
+    ]
+  },
+  "thursday": {
+    "is_online": false,
+    "lessons": [
+      {
+        "number": 2,
+        "time": "10:35 - 12:10",
+        "name": "Мультимедійнні технології",
+        "teachers": [
+          "Коломийчук І.С."
+        ],
+        "link": null,
+        "cabinet": "каб. 703"
+      },
+      {
+        "number": 3,
+        "time": "12:20 - 13:55",
+        "name": "Комп'ютерна фізика",
+        "teachers": [
+          "Радченко С.П.",
+          "Савенков С.М."
+        ],
+        "link": null,
+        "cabinet": "каб. 703"
+      }
+    ]
+  },
+  "friday": {
+    "is_online": false,
+    "lessons": [
+      {
+        "number": 1,
+        "time": "8:40 - 10:15",
+        "name": "Теорія плазми (лек.)",
+        "teachers": [
+          "Засенко В.І."
+        ],
+        "link": null,
+        "cabinet": "каф. 213"
+      },
+      {
+        "number": 2,
+        "time": "10:35 - 12:10",
+        "name": "Фізичні основи моделювання поверхневих явищ",
+        "teachers": [
+          "Лобанов В.В."
+        ],
+        "link": null,
+        "cabinet": "каф. 213"
+      },
+      {
+        "number": 3,
+        "time": "12:20 - 13:55",
+        "name": "Плазмодинаміка та плазмохімія",
+        "teachers": [
+          "Добровольский А.М."
+        ],
+        "link": "https://us05web.zoom.us/j/88017179794?pwd=bngvU2xxbDNCVHVqbU0rSFJ2YTJtdz09",
+        "cabinet": null
+      }
+    ]
+  }
+}
