@@ -41,7 +41,7 @@ async def get_schedule(date: str, faculty: str, specialty: str, course: str, gro
 @app.get("/exams")
 async def get_exams(date: str, faculty: str, specialty: str, course: str, group: str):
     identifier = ukrainian_to_english(f"{faculty}_{specialty}_{course}_{group}")
-    exams = get_exams_from_json(identifier, date) or {}
+    exams = get_exams_from_json(identifier, date) or []
 
     return {
         'identifier': identifier,
