@@ -2,6 +2,7 @@ from fastapi import FastAPI
 
 import uvicorn
 
+from get_exams import get_exams_from_json
 from get_numerator import get_is_numerator
 from get_schedule import get_schedule_from_json
 from transliterate import ukrainian_to_english
@@ -35,6 +36,17 @@ async def get_schedule(date: str, faculty: str, specialty: str, course: str, gro
         'is_online': schedule.get('is_online', True),
         'is_numerator': get_is_numerator(date),
         'lessons': schedule.get('lessons', [])
+    }
+
+@app.get("/exams")
+async def get_exams(date: str, faculty: str, specialty: str, course: str, group: str):
+    identifier = ukrainian_to_english(f"{faculty}_{specialty}_{course}_{group}")
+    exams = get_exams_from_json(identifier, date) or {}
+
+    return {
+        'identifier': identifier,
+        'date': date,
+        'exams': exams
     }
 
 @app.get("/")
